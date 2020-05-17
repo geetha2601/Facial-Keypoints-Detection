@@ -11,7 +11,9 @@ Data
 All of the data you'll need to train a neural network should be placed in the subdirectory data. To get the data, run the following commands in your terminal:
 
 mkdir data
+
 wget -P data/ https://s3.amazonaws.com/video.udacity-data.com/topher/2018/May/5aea1b91_train-test-data/train-test-data.zip
+
 unzip -n data/train-test-data.zip -d data
 
 Model Download
